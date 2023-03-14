@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.0" orientation="orthogonal" renderorder="right-down" width="67" height="55" tilewidth="24" tileheight="24" infinite="0" nextlayerid="4" nextobjectid="11">
+ <tileset firstgid="1" source="../../lnk.tsx"/>
+ <tileset firstgid="9" source="../../col.tsx"/>
+ <layer id="1" name="col" width="67" height="55">
+  <data encoding="base64" compression="zlib">
+   eJzt10EKgCAABVG3Bd3/um2CT5uwUip7A7P/zkadSikTSZIN/AJaBC2CFkGLoEXQYY8OQYugRdDiPloELYIWQYswYot50x0StDhGC6AfPd/2Z53LtTtixBZXN7fi6fO3aPFW72wfpUWL/V9vUctS4egtev0d3uYZnt6qhRZakCRJkiRJ8k+u8AJW+Q==
+  </data>
+ </layer>
+ <layer id="2" name="lnk" width="67" height="55" opacity="0.5">
+  <data encoding="base64" compression="zlib">
+   eJzt0MEJADAMxLCQ/YfuI5QboaFIExhXAQAAAADAv/p1wCJehBejy4vLi/AhvAgvAAAAAAAAYByjggAV
+  </data>
+ </layer>
+ <objectgroup id="3" name="markers" opacity="0.5">
+  <object id="1" name="CustomDeco" type="CustomDeco" x="72" y="144" width="984" height="504">
+   <properties>
+    <property name="customId" value="flaskZone1"/>
+    <property name="xr" value="0"/>
+    <property name="yr" value="0"/>
+   </properties>
+  </object>
+  <object id="2" name="Flasks" type="Flasks" x="72" y="144" width="168" height="408">
+   <properties>
+    <property name="xr" value="0"/>
+    <property name="yr" value="0"/>
+   </properties>
+  </object>
+  <object id="3" name="Flasks" type="Flasks" x="240" y="144" width="96" height="384">
+   <properties>
+    <property name="xr" value="0"/>
+    <property name="yr" value="0"/>
+   </properties>
+  </object>
+  <object id="4" name="Flasks" type="Flasks" x="336" y="144" width="96" height="384">
+   <properties>
+    <property name="xr" value="0"/>
+    <property name="yr" value="0"/>
+   </properties>
+  </object>
+  <object id="5" name="Flasks" type="Flasks" x="432" y="144" width="216" height="360">
+   <properties>
+    <property name="xr" value="0"/>
+    <property name="yr" value="0"/>
+   </properties>
+  </object>
+  <object id="6" name="Flasks" type="Flasks" x="648" y="144" width="96" height="384">
+   <properties>
+    <property name="xr" value="0"/>
+    <property name="yr" value="0"/>
+   </properties>
+  </object>
+  <object id="7" name="Flasks" type="Flasks" x="744" y="144" width="96" height="384">
+   <properties>
+    <property name="xr" value="0"/>
+    <property name="yr" value="0"/>
+   </properties>
+  </object>
+  <object id="8" name="Flasks" type="Flasks" x="840" y="168" width="216" height="384">
+   <properties>
+    <property name="xr" value="0"/>
+    <property name="yr" value="0"/>
+   </properties>
+  </object>
+  <object id="9" name="DisableDecorator" type="DisableDecorator" x="72" y="288" width="240" height="288">
+   <properties>
+    <property name="xr" value="0"/>
+    <property name="yr" value="0"/>
+   </properties>
+  </object>
+  <object id="10" name="DisableDecorator" type="DisableDecorator" x="312" y="288" width="456" height="336">
+   <properties>
+    <property name="xr" value="0"/>
+    <property name="yr" value="0"/>
+   </properties>
+  </object>
+  <object id="11" name="DisableDecorator" type="DisableDecorator" x="768" y="288" width="288" height="288">
+   <properties>
+    <property name="xr" value="0"/>
+    <property name="yr" value="0"/>
+   </properties>
+  </object>
+  <object id="12" name="GenericEventTrigger" type="GenericEventTrigger" x="936" y="288" width="96" height="504">
+   <properties>
+    <property name="customId" value="giantNoise"/>
+    <property name="xr" value="0"/>
+    <property name="yr" value="0"/>
+   </properties>
+  </object>
+  <object id="13" name="DisableDecorator" type="DisableDecorator" x="1104" y="384" width="312" height="120">
+   <properties>
+    <property name="xr" value="0"/>
+    <property name="yr" value="0"/>
+   </properties>
+  </object>
+  <object id="14" name="Light" type="Light" x="1176" y="456" width="24" height="24">
+   <properties>
+    <property name="light" value="FlaskExit"/>
+    <property name="xr" value="0"/>
+    <property name="yr" value="0"/>
+   </properties>
+  </object>
+  <object id="15" name="GenericEventTrigger" type="GenericEventTrigger" x="1032" y="480" width="96" height="168">
+   <properties>
+    <property name="customId" value="doubleJumpTuto"/>
+    <property name="xr" value="0"/>
+    <property name="yr" value="0"/>
+   </properties>
+  </object>
+  <object id="16" name="CustomDeco" type="CustomDeco" x="1104" y="480" width="24" height="24">
+   <properties>
+    <property name="customId" value="candle"/>
+    <property name="xr" value="0"/>
+    <property name="yr" value="0"/>
+   </properties>
+  </object>
+  <object id="17" name="CustomDeco" type="CustomDeco" x="1128" y="480" width="24" height="24">
+   <properties>
+    <property name="customId" value="candle"/>
+    <property name="xr" value="0"/>
+    <property name="yr" value="0"/>
+   </properties>
+  </object>
+  <object id="18" name="Npc" type="Npc" x="1176" y="480" width="24" height="24">
+   <properties>
+    <property name="customId" value="scribe"/>
+    <property name="xr" value="0"/>
+    <property name="yr" value="0"/>
+   </properties>
+  </object>
+  <object id="19" name="CustomEntity" type="CustomEntity" x="1320" y="480" width="24" height="24">
+   <properties>
+    <property name="customId" value="mirror"/>
+    <property name="xr" value="0"/>
+    <property name="yr" value="0"/>
+   </properties>
+  </object>
+  <object id="23" name="GenericEventTrigger" type="GenericEventTrigger" x="1152" y="552" width="192" height="144">
+   <properties>
+    <property name="customId" value="lockBossRune"/>
+    <property name="xr" value="0"/>
+    <property name="yr" value="0"/>
+   </properties>
+  </object>
+  <object id="24" name="CustomDeco" type="CustomDeco" x="1176" y="576" width="384" height="120">
+   <properties>
+    <property name="customId" value="weaponDeco"/>
+    <property name="xr" value="0"/>
+    <property name="yr" value="0"/>
+   </properties>
+  </object>
+  <object id="25" name="GenericEventTrigger" type="GenericEventTrigger" x="1224" y="576" width="48" height="120">
+   <properties>
+    <property name="customId" value="checkGlitchNeeded"/>
+    <property name="xr" value="0"/>
+    <property name="yr" value="0"/>
+   </properties>
+  </object>
+  <object id="26" name="DisableDecorator" type="DisableDecorator" x="1296" y="576" width="216" height="120">
+   <properties>
+    <property name="xr" value="0"/>
+    <property name="yr" value="0"/>
+   </properties>
+  </object>
+  <object id="27" name="Npc" type="Npc" x="312" y="624" width="24" height="24">
+   <properties>
+    <property name="customId" value="flask"/>
+    <property name="xr" value="0"/>
+    <property name="yr" value="0"/>
+   </properties>
+  </object>
+  <object id="28" name="DisableDecorator" type="DisableDecorator" x="336" y="624" width="408" height="24">
+   <properties>
+    <property name="xr" value="0"/>
+    <property name="yr" value="0"/>
+   </properties>
+  </object>
+  <object id="29" name="FlaskAlcove" type="FlaskAlcove" x="528" y="624" width="24" height="24">
+   <properties>
+    <property name="xr" value="0"/>
+    <property name="yr" value="0"/>
+   </properties>
+  </object>
+  <object id="30" name="Door" type="Door" x="1128" y="624" width="24" height="24">
+   <properties>
+    <property name="customId" value="hubDoor"/>
+    <property name="xr" value="0"/>
+    <property name="yr" value="0"/>
+   </properties>
+  </object>
+  <object id="31" name="DisableDecorator" type="DisableDecorator" x="1176" y="624" width="120" height="72">
+   <properties>
+    <property name="xr" value="0"/>
+    <property name="yr" value="0"/>
+   </properties>
+  </object>
+  <object id="32" name="DisableDecorator" type="DisableDecorator" x="1512" y="624" width="48" height="72">
+   <properties>
+    <property name="xr" value="0"/>
+    <property name="yr" value="0"/>
+   </properties>
+  </object>
+  <object id="33" name="Light" type="Light" x="1248" y="648" width="24" height="24">
+   <properties>
+    <property name="light" value="Candle"/>
+    <property name="xr" value="0"/>
+    <property name="yr" value="0"/>
+   </properties>
+  </object>
+  <object id="35" name="ZDoor" type="ZDoor" x="864" y="672" width="144" height="120">
+   <properties>
+    <property name="xr" value="0"/>
+    <property name="yr" value="0"/>
+   </properties>
+  </object>
+  <object id="36" name="CustomDeco" type="CustomDeco" x="1248" y="672" width="24" height="24">
+   <properties>
+    <property name="customId" value="candle"/>
+    <property name="xr" value="0"/>
+    <property name="yr" value="0"/>
+   </properties>
+  </object>
+  <object id="37" name="StartCC" type="StartCC" x="1296" y="672" width="24" height="24">
+   <properties>
+    <property name="xr" value="0"/>
+    <property name="yr" value="0"/>
+   </properties>
+  </object>
+  <object id="38" name="StartBow" type="StartBow" x="1368" y="672" width="24" height="24">
+   <properties>
+    <property name="xr" value="0"/>
+    <property name="yr" value="0"/>
+   </properties>
+  </object>
+  <object id="39" name="StartShield" type="StartShield" x="1440" y="672" width="24" height="24">
+   <properties>
+    <property name="xr" value="0"/>
+    <property name="yr" value="0"/>
+   </properties>
+  </object>
+  <object id="40" name="StartAmulet" type="StartAmulet" x="1512" y="672" width="24" height="24">
+   <properties>
+    <property name="xr" value="0"/>
+    <property name="yr" value="0"/>
+   </properties>
+  </object>
+  <object id="41" name="Door" type="Door" x="1584" y="672" width="24" height="24">
+   <properties>
+    <property name="xr" value="0"/>
+    <property name="yr" value="0"/>
+   </properties>
+  </object>
+  <object id="46" name="Npc" type="Npc" x="504" y="888" width="24" height="24">
+   <properties>
+    <property name="customId" value="aspect"/>
+    <property name="xr" value="0"/>
+    <property name="yr" value="0"/>
+   </properties>
+  </object>
+  <object id="47" name="DisableDecorator" type="DisableDecorator" x="312" y="720" width="312" height="192">
+   <properties>
+    <property name="xr" value="0"/>
+    <property name="yr" value="0"/>
+   </properties>
+  </object>
+  <object id="50" name="DisableDecorator" type="DisableDecorator" x="624" y="768" width="216" height="24">
+   <properties>
+    <property name="customId" value="brasero"/>
+    <property name="xr" value="0"/>
+    <property name="yr" value="0"/>
+   </properties>
+  </object>
+  <object id="52" name="CustomDeco" type="CustomDeco" x="576" y="888" width="24" height="24">
+   <properties>
+    <property name="customId" value="brasero"/>
+    <property name="layer" value="MainAction"/>
+    <property name="xr" value="0"/>
+    <property name="yr" value="0"/>
+   </properties>
+  </object>
+  <object id="44" name="GenericEventTrigger" type="GenericEventTrigger" x="816" y="216" width="96" height="432">
+   <properties>
+    <property name="customId" value="tentacleDLC3Cine"/>
+    <property name="xr" value="0"/>
+    <property name="yr" value="0"/>
+   </properties>
+  </object>
+  <object id="46" name="TentacleNoteDLC3" type="CustomEntity" x="792" y="624" width="24" height="24">
+   <properties>
+    <property name="customId" value="tentacleNote"/>
+    <property name="xr" value="0"/>
+    <property name="yr" value="0"/>
+   </properties>
+  </object>
+  <object id="60" name="FriendsSkinUnlockNote" type="CustomEntity" x="984" y="624" width="24" height="24">
+   <properties>
+    <property name="customId" value="FriendsSkinUnlockNote"/>
+    <property name="xr" value="0"/>
+    <property name="yr" value="0"/>
+   </properties>
+  </object>
+  <object id="54" name="LoreDeco" type="LoreDeco" x="384" y="888" width="24" height="24">
+   <properties>
+    <property name="blendMode" value="None"/>
+    <property name="customId" value="aspectsNPCstuffs"/>
+    <property name="layer" value="MainBackWalls"/>
+    <property name="offset" value="BottomLeft"/>
+   </properties>
+  </object>
+  <object id="59" name="Goggles" type="CustomEntity" x="216" y="624" width="24" height="24">
+   <properties>
+    <property name="customId" value="flaskGoggles"/>
+    <property name="xr" value="0"/>
+    <property name="yr" value="0"/>
+   </properties>
+  </object>
+  <object id="60" name="Light" type="CustomDeco" x="408" y="768" width="24" height="24">
+   <properties>
+    <property name="customId" value="lantern"/>
+    <property name="layer" value="MainBackWalls"/>
+    <property name="offset" value="BottomLeft"/>
+    <property name="yr" value="0"/>
+   </properties>
+  </object>
+  <object id="48" name="ZDoor" type="ZDoor" x="864" y="672" width="144" height="120">
+   <properties>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="64" name="DisableDecorator" type="DisableDecorator" x="840" y="672" width="240" height="120">
+   <properties>
+    <property name="xr" value="0"/>
+    <property name="yr" value="0"/>
+   </properties>
+  </object>
+  <object id="63" name="Alucard Intro NPC" type="Npc" x="120" y="624" width="24" height="24">
+   <properties>
+    <property name="customId" value="alucardnpc"/>
+    <property name="xr" value="0"/>
+    <property name="yr" value="0"/>
+   </properties>
+  </object>
+  <object id="101" name="Disengage" type="FixedLoot" x="623" y="624" width="24" height="24">
+   <properties>
+    <property name="item" value="P_Disengage"/>
+   </properties>
+  </object>
+  <object id="100" name="FaceFlask" type="FixedLoot" x="683.5" y="624" width="24" height="24">
+   <properties>
+    <property name="item" value="FaceFlask"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
