@@ -17,9 +17,11 @@ function UnpackAll {
 function PatchAll {
     Copy-Item -Path "patches\P_Disengage.json" -Destination "build\castledb\item\Perk\408---P_Disengage.json" -Force
     Copy-Item -Path "patches\PrisonFlaskRoom.tmx" -Destination "build\tiled\tmx\Prison\PrisonFlaskRoom.tmx" -Force
+    Copy-Item -Path "patches\BossRushArmory.tmx" -Destination "build\tiled\tmx\BossRush\BossRushArmory.tmx" -Force
 
     TmxTool.exe -Collapse -TmxBin "$(pwd)\build\tiled-bin" -TmxXml "$(pwd)\build\tiled"
     Copy-Item -Path "$(pwd)\build\tiled-bin\tmx\Prison\PrisonFlaskRoom.tmx" -Destination "$(pwd)\build\unpacked\tiled\tmx\Prison\PrisonFlaskRoom.tmx" -Force
+    Copy-Item -Path "$(pwd)\build\tiled-bin\tmx\BossRush\BossRushArmory.tmx" -Destination "$(pwd)\build\unpacked\tiled\tmx\BossRush\BossRushArmory.tmx" -Force
 
     CDBTool.exe -Collapse -Indir "$(pwd)\build\castledb" -OutCdb "$(pwd)\build\unpacked\data.cdb"
 }

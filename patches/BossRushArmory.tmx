@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="48" height="30" tilewidth="24" tileheight="24" infinite="0" nextlayerid="4" nextobjectid="8">
+ <tileset firstgid="6" source="../../lnk.tsx"/>
+ <tileset firstgid="1" source="../../col.tsx"/>
+ <layer id="2" name="col" width="48" height="30" >
+  <data encoding="base64" compression="zlib">  
+   eNrt18EJADAIBEHtv+m0ICQExVnY/97zMiKSJMkF/mZi88st3ZjcXt3QHf369evXf9cPANjJ9C9+AB/KAlk=
+  </data>
+ </layer>
+ <layer id="3" name="lnk" width="48" height="30"  opacity="0.5">
+  <data encoding="base64" compression="zlib">  
+   eNrtzjENAAAIA7B9+HeMBy6WtAqaAAAAAN9N+d3f39/f//Zvt7tvAHE=
+  </data>
+ </layer>
+ <objectgroup id="4" name="markers" opacity="0.5">
+  <object id="1" name="armoryCorpsTrainingRoom" type="LoreDeco" x="216" y="672" width="24" height="24">
+   <properties>
+    <property name="offset" value="BottomLeft"/>
+    <property name="layer" value="MainBackProps"/>
+    <property name="blendMode" value="None"/>
+    <property name="customId" value="armoryCorpsTrainingRoom"/>
+   </properties>
+  </object>
+  <object id="2" name="armoryDomeTrainingRoom" type="LoreDeco" x="288" y="552" width="24" height="24">
+   <properties>
+    <property name="yr" value="0.55"/>
+    <property name="xr" value="-0.2"/>
+    <property name="offset" value="BottomLeft"/>
+    <property name="layer" value="MainBackProps"/>
+    <property name="blendMode" value="None"/>
+    <property name="customId" value="armoryDomeTrainingRoom"/>
+   </properties>
+  </object>
+  <object id="3" name="DisableDecorator" type="DisableDecorator" x="144" y="216" width="1008" height="480">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="4" name="Light" type="Light" x="480" y="432" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0.8"/>
+    <property name="light" value="PrisonArmory"/>
+   </properties>
+  </object>
+  <object id="5" name="Light" type="Light" x="600" y="432" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+    <property name="light" value="PrisonArmory"/>
+   </properties>
+  </object>
+  <object id="6" name="FocusCamera" type="FocusCamera" x="576" y="480" width="48" height="48">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="7" name="Light" type="Light" x="696" y="432" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+    <property name="light" value="PrisonArmory"/>
+   </properties>
+  </object>
+  <object id="8" name="RandomBowSpawner" type="RandomBowSpawner" x="480" y="552" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0.8"/>
+    <property name="customId" value=""/>
+   </properties>
+  </object>
+  <object id="9" name="RandomCCSpawner" type="RandomCCSpawner" x="480" y="576" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0.8"/>
+    <property name="customId" value=""/>
+   </properties>
+  </object>
+  <object id="10" name="Light" type="Light" x="480" y="648" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0.8"/>
+    <property name="light" value="PrisonArmory"/>
+   </properties>
+  </object>
+  <object id="11" name="Light" type="Light" x="600" y="648" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+    <property name="light" value="PrisonArmory"/>
+   </properties>
+  </object>
+  <object id="12" name="Light" type="Light" x="696" y="648" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+    <property name="light" value="PrisonArmory"/>
+   </properties>
+  </object>
+  <object id="13" name="CustomEntity" type="CustomEntity" x="480" y="672" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0.8"/>
+    <property name="customId" value="armoryButton"/>
+   </properties>
+  </object>
+  <object id="16" name="Door" type="Door" x="1128" y="672" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+   </properties>
+  </object>
+  <object id="18" name="RandomCCSpawner" type="RandomCCSpawner" x="600" y="576" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+    <property name="customId" value=""/>
+   </properties>
+  </object>
+  <object id="19" name="RandomCCSpawner" type="RandomCCSpawner" x="696" y="576" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+    <property name="customId" value=""/>
+   </properties>
+  </object>
+  <object id="20" name="RandomShieldSpawner" type="RandomShieldSpawner" x="480" y="528" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0.8"/>
+    <property name="customId" value=""/>
+   </properties>
+  </object>
+  <object id="21" name="RandomActivableSpawner" type="RandomActivableSpawner" x="480" y="504" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0.8"/>
+    <property name="customId" value=""/>
+   </properties>
+  </object>
+  <object id="22" name="RandomBowSpawner" type="RandomBowSpawner" x="600" y="552" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+    <property name="customId" value=""/>
+   </properties>
+  </object>
+  <object id="23" name="RandomShieldSpawner" type="RandomShieldSpawner" x="600" y="528" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+    <property name="customId" value=""/>
+   </properties>
+  </object>
+  <object id="24" name="RandomActivableSpawner" type="RandomActivableSpawner" x="600" y="504" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+    <property name="customId" value=""/>
+   </properties>
+  </object>
+  <object id="25" name="RandomBowSpawner" type="RandomBowSpawner" x="696" y="552" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+    <property name="customId" value=""/>
+   </properties>
+  </object>
+  <object id="26" name="RandomShieldSpawner" type="RandomShieldSpawner" x="696" y="528" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+    <property name="customId" value=""/>
+   </properties>
+  </object>
+  <object id="27" name="RandomActivableSpawner" type="RandomActivableSpawner" x="696" y="504" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+    <property name="customId" value=""/>
+   </properties>
+  </object>
+  <object id="31" name="null" type="CustomDeco" x="1128" y="672" width="24" height="24">
+   <properties>
+    <property name="layer" value="MainProps"/>
+    <property name="customId" value="brasero"/>
+   </properties>
+  </object>
+  <object id="32" name="RandomActivableSpawner" type="RandomActivableSpawner" x="480" y="480" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0.8"/>
+    <property name="customId" value=""/>
+   </properties>
+  </object>
+  <object id="33" name="RandomActivableSpawner" type="RandomActivableSpawner" x="600" y="480" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+    <property name="customId" value=""/>
+   </properties>
+  </object>
+  <object id="34" name="RandomActivableSpawner" type="RandomActivableSpawner" x="696" y="480" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0"/>
+    <property name="customId" value=""/>
+   </properties>
+  </object>
+  <object id="35" name="CustomEntity" type="CustomEntity" x="600" y="672" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0.8"/>
+    <property name="customId" value="armoryButton"/>
+   </properties>
+  </object>
+  <object id="36" name="CustomEntity" type="CustomEntity" x="696" y="672" width="24" height="24">
+   <properties>
+    <property name="yr" value="0"/>
+    <property name="xr" value="0.8"/>
+    <property name="customId" value="armoryButton"/>
+   </properties>
+  </object>
+  <object id="100" name="FaceFlask" type="FixedLoot" x="839" y="672" width="24" height="24">
+   <properties>
+    <property name="item" value="FaceFlask" />
+   </properties>
+  </object>
+  <object id="101" name="Disengagement" type="FixedLoot" x="792" y="672" width="24" height="24">
+   <properties>
+    <property name="item" value="P_Disengage" />
+   </properties>
+  </object>
+ </objectgroup>
+</map>
