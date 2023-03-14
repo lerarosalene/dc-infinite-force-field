@@ -38,6 +38,13 @@ function LivePatch {
     PAKTool.exe -Collapse -Indir "$(pwd)\build\unpacked" -OutPak "$InstallDir\res.pak"
 }
 
+function PrePublish {
+    New-Item -ItemType Directory -Path publish -Force >$null
+    Copy-Item -Path "metadata\settings.json" -Destination "publish" -Force
+    Copy-Item -Path "metadata\preview.jpg" -Destination "publish" -Force
+    Copy-Item -Path "res.pak" -Destination "publish" -Force
+}
+
 switch($Target) {
     "build" {
         UnpackAll -Destination build
@@ -54,5 +61,15 @@ switch($Target) {
         UnpackAll -Destination build
         PatchAll
         LivePatch
+    }
+    "pub" {
+        PrePublish
+    }
+    "clean" {
+        if (Test-Path "build") { Remove-Item -Path "build" -Force -Recurse }
+        if (Test-Path "check") { Remove-Item -Path "check" -Force -Recurse }
+        if (Test-Path "publish") { Remove-Item -Path "publish" -Force -Recurse }
+        if (Test-Path "reference") { Remove-Item -Path "reference" -Force -Recurse }
+        if (Test-Path "res.pak") { Remove-Item -Path "res.pak" -Force }
     }
 }
