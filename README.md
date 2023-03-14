@@ -1,5 +1,7 @@
 ## Dead Cells Mod: Infinite Force Field
 
+<img src="https://raw.githubusercontent.com/lerarosalene/dc-infinite-force-field/bd9bff6d4988580c2cf1848958565b7915fe2ca5/metadata/preview.jpg" width="600" />
+
 Download and install via [steam workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2946881453).
 
 This mod:
