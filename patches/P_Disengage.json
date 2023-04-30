@@ -1,11 +1,11 @@
 {
+  "commonProps": {},
   "synergy": [],
   "props": {
-    "duration2": 0,
     "prct": 1,
     "duration": 36000
   },
-  "gameplayDesc": "Si vos PV tombent sous ::prct::%, un bouclier vous protège pendant ::duration:: sec. Ne peut se produire qu'une fois toutes les ::duration2:: sec.",
+  "gameplayDesc": "U34_P_DISENGAGE_GAMEPLAYDESC",
   "moneyCost": 0,
   "group": 12,
   "castCD": 0,
@@ -23,5 +23,5 @@
   "cellCost": 200,
   "__separator_group_ID": 12,
   "__separator_group_Name": "Perk",
-  "__original_Index": 408
+  "__original_Index": 412
 }

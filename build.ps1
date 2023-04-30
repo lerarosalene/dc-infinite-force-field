@@ -15,7 +15,7 @@ function UnpackAll {
 }
 
 function PatchAll {
-    Copy-Item -Path "patches\P_Disengage.json" -Destination "build\castledb\item\Perk\408---P_Disengage.json" -Force
+    Copy-Item -Path "patches\P_Disengage.json" -Destination "build\castledb\item\Perk\412---P_Disengage.json" -Force
     Copy-Item -Path "patches\PrisonFlaskRoom.tmx" -Destination "build\tiled\tmx\Prison\PrisonFlaskRoom.tmx" -Force
     Copy-Item -Path "patches\BossRushArmory.tmx" -Destination "build\tiled\tmx\BossRush\BossRushArmory.tmx" -Force
 

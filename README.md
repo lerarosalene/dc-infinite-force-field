@@ -7,11 +7,11 @@ Download and install via [steam workshop](https://steamcommunity.com/sharedfiles
 This mod:
 - changes Disengagement mutation to grant you force field at 100% health instead of 15%
 - makes it last 10 hours
-- makes it's cooldown 0: even attacks that normally damage you through force field would immediately trigger Disengagement again and heal you back to 100%
+- ~~makes it's cooldown 0: even attacks that normally damage you through force field would immediately trigger Disengagement again and heal you back to 100%~~ (doesn't work since 3.4 Clean Cut)
 - places Disengagement in starting room near boss cells tube (free to pick up) along with Face Flask (to activate it instantly)
 - places Disengagement in armory in Boss Rush along with Face Flask (once per run)
 
-Last compatibility check: 3.2
+Last compatibility check: 3.4
 
 ## Build it yourself
 
